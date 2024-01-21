@@ -8,3 +8,24 @@
   min-height: 100vh;
   border: 10px solid #1d1e4c;
 }
+.top_section {
+  display: flex;
+}
+.text_cnt p {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: sans-serif;
+  margin: 7px 0px 14px;
+  width: 800px;
+  height: 400px;
+}
+
+.top_section,
+img {
+  width: 220px;
+  height: 213px;
+}
+body {
+  background-color: #f8f9fa;
+  color: #202122;
+}
