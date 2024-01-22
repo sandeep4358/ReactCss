@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  flex: 50%;
+  text-align: center;
+}
+.flex-item-left {
+  background-color: #0ce6c9;
+  padding: 10px;
+  flex: 50%;
+}
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-container > div {
+  margin: 20px;
+  padding: 30px;
+  border: 5px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  body {
+    background-color: blue;
+  }
+}
