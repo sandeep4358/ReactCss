@@ -6,7 +6,25 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+
+  /*  1)..
+  we can use like below
+
+  grid-template-columns: auto auto auto; */
+
+  /* define the number of grid columns 
+    here the repeat will manage the colum number as we provide as below we have provided 12
+  grid-template-columns: repeat(12, 1fr); */
+
+  /* grid-template-columns: repeat(12, minmax(100px, 1fr)); 
+  
+  */
+  /**
+below one it now auto fite with the min and max size of teh columne 350px
+*/
+
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
   background-color: #2196f3;
   padding: 10px;
 }

@@ -13,24 +13,26 @@
 .content {
   max-width: 900px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 .top_section {
   width: 1200px;
   height: 100vh;
   border: 10px solid red;
-  margin-top: 100px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
+  padding: 20px 10px 0px 10px;
 }
 
-.top_section,
-img {
-  margin-top: 50px;
-  width: 220px;
+.top_section img {
+  width: 200px;
   height: 213px;
 }
-body {
-  background-color: #f8f9fa;
-  color: #202122;
+
+.top_section p {
+  margin-right: 10px;
+  text-align: justify;
 }
